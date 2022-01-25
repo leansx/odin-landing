@@ -71,6 +71,7 @@ div{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 .random-item {
@@ -80,6 +81,8 @@ div{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+   
 
     
 
@@ -101,7 +104,7 @@ div{
     width: 200px;
     height: 200px;
     border-radius: 10px;
-    border: 5px solid black;
+    border: 5px solid #3882f6;
     justify-content: center;
 
 }
@@ -114,7 +117,10 @@ p{
     display: flex;
     background-color: #3882f6 ;
     padding: 50px 300px 50px 300px;
-    margin: 50px;
+    margin-top: 70px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 70px;
     border-radius: 10px;
     color: white; 
 }
@@ -122,5 +128,16 @@ p{
 .inner-item {
     flex: 1 1 auto;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.footer-big{
+    flex 2 1 auto;
 }
 
+.footer-small {
+    flex 1 1 auto;
+}
