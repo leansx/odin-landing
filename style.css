@@ -21,15 +21,36 @@ body {
 
 }
 
-div{
-    border: 2px solid red;
+.header-left{
+    flex: 3 1 auto;
+    padding-left: 142px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.header-right{
+    flex: 1 1 auto;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 142px;
+
+}
+
+
 
 .header-item{
     flex: 1 1 auto;
-    width: 60px;
+    width: 100%;
+    
+   
     
 }
+
+
 
 .hero-container{
     display: flex;
@@ -63,14 +84,18 @@ div{
     background: white;
     color: black;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 .random-inner {
     flex: 1 1 auto;
-    width: 100%;
+    width: 60%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
@@ -78,6 +103,7 @@ div{
     flex: 1 1 auto;
     margin: 0px;
     height: 300px;
+    width: 200px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -90,10 +116,10 @@ div{
 
 .random-box {
     width: 200px;
+    display: flex;
     margin: 0px;
     padding: 0px;
     height: 200px;
-    border: 2px dashed red;
     flex: 1 1 200;
     justify-content: center;
     text-align: center;
@@ -109,17 +135,15 @@ div{
 
 }
 
-p{
-    border: 2px solid red;
-}
+
 
 .inner-footer {
     display: flex;
     background-color: #3882f6 ;
     padding: 50px 300px 50px 300px;
     margin-top: 70px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 146px;
+    margin-right: 146px;
     margin-bottom: 70px;
     border-radius: 10px;
     color: white; 
